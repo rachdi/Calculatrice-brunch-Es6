@@ -3,91 +3,91 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-  let  un=document.getElementById("un");
-  let deux=document.getElementById("deux");
-  let trois=document.getElementById("trois");
-  let quatre=document.getElementById("quatre");
-  let cinq=document.getElementById("cinq");
-  let six=document.getElementById("six");
-  let sept=document.getElementById("sept");
-  let huit=document.getElementById("huit");
-  let neuf=document.getElementById("neuf");
-  let zero=document.getElementById("zero");
-  let virgule=document.getElementById("virgule");
-  let c=document.getElementById("c");
-  let egal=document.getElementById("egal");
-  let plus=document.getElementById("plus");
-  let moins=document.getElementById("moins");
-  let fois=document.getElementById("fois");
-  let divise=document.getElementById("divise");
-  let suppr=document.getElementById("suppr");
+  var  un=document.getElementById("un");
+  var deux=document.getElementById("deux");
+  var trois=document.getElementById("trois");
+ var quatre=document.getElementById("quatre");
+  var cinq=document.getElementById("cinq");
+  var six=document.getElementById("six");
+  var sept=document.getElementById("sept");
+  var huit=document.getElementById("huit");
+  var neuf=document.getElementById("neuf");
+  var zero=document.getElementById("zero");
+  var virgule=document.getElementById("virgule");
+ var c=document.getElementById("c");
+  var egal=document.getElementById("egal");
+  var plus=document.getElementById("plus");
+ var moins=document.getElementById("moins");
+  var fois=document.getElementById("fois");
+  var divise=document.getElementById("divise");
+  var suppr=document.getElementById("suppr");
 
   
 
   
   un.onclick=function un(){
-    let x = document.getElementById("un").value;
-    let valeur = document.getElementById("resultat").value;
+    var x = document.getElementById("un").value;
+   var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   deux.onclick=function deux(){
-    let x = document.getElementById("deux").value;
-    let valeur = document.getElementById("resultat").value;
+    var x = document.getElementById("deux").value;
+    var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   trois.onclick=function trois(){
-    let x = document.getElementById("trois").value;
-    let valeur = document.getElementById("resultat").value;
+   var x = document.getElementById("trois").value;
+    var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   quatre.onclick=function quatre(){
-    let x = document.getElementById("quatre").value;
-    let valeur = document.getElementById("resultat").value;
+   var x = document.getElementById("quatre").value;
+   var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   cinq.onclick=function cinq(){
-    let x = document.getElementById("cinq").value;
-    let valeur = document.getElementById("resultat").value;
+    var x = document.getElementById("cinq").value;
+    var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   six.onclick=function six(){
-    let x = document.getElementById("six").value;
-    let valeur = document.getElementById("resultat").value;
+   var x = document.getElementById("six").value;
+  var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   sept.onclick=function sept(){
-    let x = document.getElementById("sept").value;
-    let valeur = document.getElementById("resultat").value;
+    var x = document.getElementById("sept").value;
+    var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   huit.onclick=function huit(){
-    let x = document.getElementById("huit").value;
-    let valeur = document.getElementById("resultat").value;
+    var x = document.getElementById("huit").value;
+    var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   neuf.onclick=function neuf(){
-    let x = document.getElementById("neuf").value;
-    let valeur = document.getElementById("resultat").value;
+    var x = document.getElementById("neuf").value;
+   var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   zero.onclick=function zero(){
-    let x = document.getElementById("zero").value;
-    let valeur = document.getElementById("resultat").value;
+   var x = document.getElementById("zero").value;
+   var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
   virgule.onclick=function virgule(){
-    let x = document.getElementById("virgule").value;
-    let valeur = document.getElementById("resultat").value;
+   var x = document.getElementById("virgule").value;
+    var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + x;
   }
 
@@ -96,39 +96,39 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   egal.onclick=function egal(){
-    let valeur = document.getElementById("resultat").value;
-    let resultatFinal = eval(valeur);
+    var valeur = document.getElementById("resultat").value;
+   var resultatFinal = eval(valeur);
     document.getElementById("resultat").value = valeur + " = " + resultatFinal;
   }
 
   plus.onclick= function plus(){
-    let x = document.getElementById("plus").value;
-    let valeur = document.getElementById("resultat").value;
+    var x = document.getElementById("plus").value;
+   var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + " " + x + " ";
   }
 
   moins.onclick=function moins(){
-    let x = document.getElementById("moins").value;
-    let valeur = document.getElementById("resultat").value;
+   var x = document.getElementById("moins").value;
+   var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + " " + x + " ";
   }
 
   fois.onclick=function fois(){
-    let x = document.getElementById("fois").value;
-    let valeur = document.getElementById("resultat").value;
+    var x = document.getElementById("fois").value;
+  var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + " " + x + " ";
   }
 
   divise.onclick=function divise(){
-    let x = document.getElementById("divise").value;
-    let valeur = document.getElementById("resultat").value;
+    var = document.getElementById("divise").value;
+    var valeur = document.getElementById("resultat").value;
     document.getElementById("resultat").value = valeur + " " + x + " ";
   }
 
   suppr.onclick=function suppr(){
-    let valeur = document.getElementById("resultat").value;
-    let longueur = valeur.length;
-    let fin = longueur - 1;
+    var valeur = document.getElementById("resultat").value;
+    var longueur = valeur.length;
+   var fin = longueur - 1;
     if(valeur.charAt(longueur-1 == "")){
       fin = longueur - 1;
     }
